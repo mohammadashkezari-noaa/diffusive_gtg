@@ -1,0 +1,100 @@
+<PAMDataset>
+  <Subdataset name="GTIFF_DIR:1:C:/Users/mohammad.ashkezari/Documents/projects/GTG/us_noaa_nos_ITRF2014_LMSL_MSL_(XGEOID20B_CONUSPAC)_(DEdelches02_vdatum_4.4_20220315_1983-2001).tif.diffused.tif">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Description>hydroid_height</Description>
+        <Metadata>
+          <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-0.44580000638962</MDI>
+          <MDI key="STATISTICS_MEAN">-0.48854160859661</MDI>
+          <MDI key="STATISTICS_MINIMUM">-0.5460000038147</MDI>
+          <MDI key="STATISTICS_STDDEV">0.025708127322563</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">46.9</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="GTIFF_DIR:2:C:/Users/mohammad.ashkezari/Documents/projects/GTG/us_noaa_nos_ITRF2014_LMSL_MSL_(XGEOID20B_CONUSPAC)_(DEdelches02_vdatum_4.4_20220315_1983-2001).tif.diffused.tif">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">-0.179000005126</MDI>
+          <MDI key="STATISTICS_MEAN">-0.41980880532979</MDI>
+          <MDI key="STATISTICS_MINIMUM">-0.52280002832413</MDI>
+          <MDI key="STATISTICS_STDDEV">0.054243723767225</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">23.24</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="GTIFF_DIR:3:C:/Users/mohammad.ashkezari/Documents/projects/GTG/us_noaa_nos_ITRF2014_LMSL_MSL_(XGEOID20B_CONUSPAC)_(DEdelches02_vdatum_4.4_20220315_1983-2001).tif.diffused.tif">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-0.31119999289513</MDI>
+          <MDI key="STATISTICS_MEAN">-0.41426232943718</MDI>
+          <MDI key="STATISTICS_MINIMUM">-0.44780001044273</MDI>
+          <MDI key="STATISTICS_STDDEV">0.028104702947809</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">25.97</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="GTIFF_DIR:4:C:/Users/mohammad.ashkezari/Documents/projects/GTG/us_noaa_nos_ITRF2014_LMSL_MSL_(XGEOID20B_CONUSPAC)_(DEdelches02_vdatum_4.4_20220315_1983-2001).tif.diffused.tif">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-0.39700001478195</MDI>
+          <MDI key="STATISTICS_MEAN">-0.4762425266826</MDI>
+          <MDI key="STATISTICS_MINIMUM">-0.50791126489639</MDI>
+          <MDI key="STATISTICS_STDDEV">0.022443750254243</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">41.67</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="GTIFF_DIR:5:C:/Users/mohammad.ashkezari/Documents/projects/GTG/us_noaa_nos_ITRF2014_LMSL_MSL_(XGEOID20B_CONUSPAC)_(DEdelches02_vdatum_4.4_20220315_1983-2001).tif.diffused.tif">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-0.38719999790192</MDI>
+          <MDI key="STATISTICS_MEAN">-0.43964347363437</MDI>
+          <MDI key="STATISTICS_MINIMUM">-0.47983729839325</MDI>
+          <MDI key="STATISTICS_STDDEV">0.026811110777156</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">44.03</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="GTIFF_DIR:6:C:/Users/mohammad.ashkezari/Documents/projects/GTG/us_noaa_nos_ITRF2014_LMSL_MSL_(XGEOID20B_CONUSPAC)_(DEdelches02_vdatum_4.4_20220315_1983-2001).tif.diffused.tif">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-0.23710000514984</MDI>
+          <MDI key="STATISTICS_MEAN">-0.42283072021908</MDI>
+          <MDI key="STATISTICS_MINIMUM">-0.48260000348091</MDI>
+          <MDI key="STATISTICS_STDDEV">0.020101170999287</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">29.63</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="GTIFF_DIR:7:C:/Users/mohammad.ashkezari/Documents/projects/GTG/us_noaa_nos_ITRF2014_LMSL_MSL_(XGEOID20B_CONUSPAC)_(DEdelches02_vdatum_4.4_20220315_1983-2001).tif.diffused.tif">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-0.32629999518394</MDI>
+          <MDI key="STATISTICS_MEAN">-0.44702522815263</MDI>
+          <MDI key="STATISTICS_MINIMUM">-0.50540000200272</MDI>
+          <MDI key="STATISTICS_STDDEV">0.022666475777784</MDI>
+          <MDI key="STATISTICS_VALID_PERCENT">51.39</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>

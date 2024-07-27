@@ -12,7 +12,7 @@ class DiffusiveGTG():
     Assumptions:
     - all subgrids have identical horizontal crs and is not projected
     - the NoDataValue is identical in all subgrids
-    - the subgrids have only band
+    - the subgrids have only one band
     - subgrids are stacked from low to high resolution
     """
     def __init__(self, input_file: str) -> None:
@@ -26,7 +26,7 @@ class DiffusiveGTG():
         self.gtg_metadata = self.get_metadata()
         self.n_subgrids = len(self.gtg_metadata["subgrids"]) // 2
         self.subgrids_metadata = [self.get_metadata(i) for i in range(1, self.n_subgrids+1)]
-        self.compile_subgrid_arrays()
+        self.compile_subgrid_arrays()        
 
     def get_metadata(self, subgrid_index: int = -1) -> Union[dict, str]:
         """
@@ -82,10 +82,11 @@ class DiffusiveGTG():
         e = self.subgrids_metadata[g_ind]["extent"]
         res_x, res_y = self.subgrids_metadata[g_ind]["resolution"]
         res_y = np.fabs(res_y)
+        h = self.subgrid_arrays[g_ind].shape[0]
         index_range = [int((sub_extent[0] - e[0]) / res_x),
-                       int((sub_extent[1] - e[1]) / res_y),
+                       h - int((sub_extent[3] - e[1]) / res_y),
                        int((sub_extent[2] - e[0]) / res_x),
-                       int((sub_extent[3] - e[1]) / res_y)
+                       h - int((sub_extent[1] - e[1]) / res_y)
                        ]
         for ind in index_range:
             if ind < 0:
@@ -125,7 +126,6 @@ class DiffusiveGTG():
         """
         ndv = self.gtg_metadata["band_no_data"][0]
         for i in range(src+1, len(self.subgrid_arrays)):
-            # print(f"Leaking from subgrid {src} to {i}")
             overlap = self.intersection(src, i)
             if not overlap:
                 continue
@@ -161,14 +161,14 @@ class DiffusiveGTG():
             band, ds = None, None
         return
 
-    def transform(self, output_file: str, reinitialize=False) -> list[np.ndarray]:
+    def transform(self, output_file: str, reinitialize=False):
         self.output_file = output_file
         if reinitialize:
             self.compile_subgrid_arrays()
         for i in range(len(self.subgrid_arrays)-1):
             self.leak(src=i)
         self.save_mutated_gtg()
-        return self.output_file
+        return
 
 
 if __name__ == "__main__":
